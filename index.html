@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BodyLog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="/manifest.json">
+</head>
+<body>
+    <div class="container">
+        <h1>Gewicht erfassen</h1>
+        <form id="weightForm">
+            <input type="date" id="date" value="2025-06-20" required>
+            <input type="number" id="weight" placeholder="z. B. 69.0" step="0.1" required>
+            <button type="submit" id="saveBtn">Speichern</button>
+            <button type="button" id="deleteBtn">Löschen</button>
+        </form>
+    </div>
+    <footer>
+        <div class="footer-icons" id="navIcons">
+            <img src="assets/home_active.png" alt="Home" class="icon home active">
+            <img src="assets/chart_inactive.png" alt="Gewichtsverlauf" class="icon chart">
+            <img src="assets/settings_inactive.png" alt="Einstellungen" class="icon settings">   
+        </div>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>

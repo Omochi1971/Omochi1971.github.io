@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BodyLog - Gewichtsverlauf</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gewichtsverlauf</h1>
+        <table id="weightTable">
+            <thead>
+                <tr>
+                    <th>Datum</th>
+                    <th>Gewicht (kg)</th>
+                </tr>
+            </thead>
+            <tbody id="weightTableBody" class="weightTableBody">
+                <!-- Tabelle wird mit JavaScript gefüllt -->
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        <div class="footer-icons" id="navIcons">
+            <img src="assets/home_inactive.png" alt="Home" class="icon home">
+            <img src="assets/chart_active.png" alt="Gewichtsverlauf" class="icon chart active">
+            <img src="assets/settings_inactive.png" alt="Einstellungen" class="icon settings">
+        </div>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>

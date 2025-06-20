@@ -1,0 +1,158 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+button {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#saveBtn {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#deleteBtn {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+
+.home.active {
+    color: #007bff; /* Blau für aktiven Status */
+}
+
+.chart, .settings {
+    color: #000; /* Grau für inaktive Icons */
+}
+/* Bestehende Regeln von der Startseite bleiben erhalten */
+
+/* Neue Regeln für Gewichtsverlauf-Seite */
+table {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+td {
+    font-size: 16px;
+}
+
+tbody tr:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+/* Bestehende Regeln von Startseite und Gewichtsverlauf bleiben erhalten */
+
+/* Neue Regeln für Einstellungen-Seite */
+.settings-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#exportBtn, #clearBtn {
+    width: 250px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#exportBtn {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#clearBtn {
+    background-color: #dc3545;
+    color: #fff;
+}
+/* Bestehende Regeln bleiben erhalten */
+
+/* Neue Regeln für Icons */
+.footer-icons {
+    display: flex;
+    justify-content: space-around;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+}
+
+.icon {
+    width: 30px; /* Passe die Größe an deine Icons an */
+    height: 30px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.icon.active {
+    opacity: 1; /* Vollständig sichtbar */
+}
+
+.icon:not(.active) {
+    opacity: 0.6; /* Leicht abgedunkelt für inaktive Icons */
+}
+
+.icon:hover {
+    opacity: 0.9; /* Hover-Effekt */
+}
