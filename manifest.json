@@ -8,12 +8,12 @@
   "icons": [
     {
       "src": "/assets/BodyLogAppIcon1.png",
-      "sizes": "192x192",
+      "sizes": "212x212",
       "type": "image/png"
     },
     {
       "src": "/assets/BodyLogAppIcon1.png",
-      "sizes": "512x512",
+      "sizes": "532x532",
       "type": "image/png"
     }
   ]
